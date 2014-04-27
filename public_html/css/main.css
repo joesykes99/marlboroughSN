@@ -2,19 +2,19 @@
     color:red;
     height:100px;
     width:104%;
-   
-   
+
+
 }
 
 body{
-    background-image:url('BG2.png');
+    background-image:url('../images/BG2.png');
 }
 
 .stickerOptions1{
     opacity:1;
 }
 .stickerOptions1 a img:hover {
-    background:url(homePageLink1b.png);
+    background:url(../images/homePageLink1b.png);
     position:absolute;
     top:0px;
 }
