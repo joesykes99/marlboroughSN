@@ -1,0 +1,9 @@
+.logInBox{
+    height:300px;
+    width:200px;
+    background-color: lightblue;
+}
+
+body{
+    background-image:url('BG2.png');
+}
