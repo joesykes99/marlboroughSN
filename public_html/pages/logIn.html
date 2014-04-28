@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>LogIn</title>
-        <link rel="stylesheet" href="../css/logIn.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
 
-    </head>
-    <body>
-        <center>
-            <div class="logInBox">
+<head>
+    <title>LogIn</title>
+    <link rel="stylesheet" href="../css/logIn.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha256.js"></script>
+</head>
+
+<body>
+    <script src="../js/login.js"></script>
+    <center>
+       <img src="../images/logo.png"> </img>
+        <div class="logInBox">
+            <form id="login">
                 <p>Username</p>
-                <input type="text" name="usernameTB">
+                <input type="text" id="username" />
                 <p>Password</p>
-                 <input type="password" name="passwordTB">
+                <input type="password" id="password" />
+                <br/>
+                <input type="submit" value="Login" />
+            </form>
+        </div>
+    </center>
+</body>
 
-            </div>
-        </center>
-    </body>
 </html>

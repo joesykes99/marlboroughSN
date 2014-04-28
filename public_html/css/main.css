@@ -1,20 +1,21 @@
-.mainBody{
-    color:red;
-    height:100px;
-    width:104%;
-
-
+.mainBody {
+    color: red;
+    height: 100px;
+    width: 104%;
 }
-
-body{
-    background-image:url('../images/BG2.png');
+body {
+    background-image: url('../images/BG2.png');
 }
-
-.stickerOptions1{
-    opacity:1;
+.stickerOption {
+    opacity: 1;
+    max-width: 40%;
 }
-.stickerOptions1 a img:hover {
-    background:url(../images/homePageLink1b.png);
-    position:absolute;
-    top:0px;
+.logo {
+    max-width: 90%;
+}
+#stickerOptions1:hover {
+    content: url(../images/homePageLink1b.png);
+}
+#stickerOptions2:hover {
+    content: url(../images/homePageLink2b.png);
 }
