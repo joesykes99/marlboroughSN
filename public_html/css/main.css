@@ -5,6 +5,7 @@
 }
 body {
     background-image: url('../images/BG2.png');
+    background-attachment:fixed;
 }
 .stickerOption {
     opacity: 1;
@@ -18,4 +19,34 @@ body {
 }
 #stickerOptions2:hover {
     content: url(../images/homePageLink2b.png);
+}
+
+.profileMainBody{
+    max-width:850px;
+    height:1000px;
+    background-color: lavender;
+    border-top-right-radius:700px;
+    border-top-left-radius:700px;
+    opacity:0.7;
+    top: 4000px;
+}
+
+.profileBadge{
+    height:300px;
+    width:300px;
+    border-radius:150px;
+    background-color: lightblue;
+    float:left;
+    left: 110px;
+    position: relative;
+}
+
+.yearBadge{
+    height:300px;
+    width:300px;
+    border-radius:150px;
+    background-color: lightgreen;
+    float:right;
+    right: 110px;
+    position: relative;
 }
