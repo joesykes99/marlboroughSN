@@ -19,3 +19,9 @@ body {
 #stickerOptions2:hover {
     content: url(../images/homePageLink2b.png);
 }
+h1,
+p,
+a,
+h2 {
+    font-family: 'Maven Pro', 'sans-serif';
+}
