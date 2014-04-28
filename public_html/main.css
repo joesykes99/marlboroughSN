@@ -18,3 +18,8 @@ body{
     position:absolute;
     top:0px;
 }
+
+h1, p, a, h2{
+    font-family: 'Maven Pro', 'sans-serif';
+    
+}

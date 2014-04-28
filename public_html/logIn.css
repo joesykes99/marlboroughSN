@@ -7,3 +7,8 @@
 body{
     background-image:url('BG2.png');
 }
+
+h1, p, a, h2{
+    font-family: 'Maven Pro', 'sans-serif';
+    text-decoration: none;
+}
