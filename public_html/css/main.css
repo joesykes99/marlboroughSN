@@ -20,6 +20,7 @@ body {
 #stickerOptions2:hover {
     content: url(../images/homePageLink2b.png);
 }
+<<<<<<< HEAD
 
 .profileMainBody{
     max-width:850px;
@@ -50,3 +51,11 @@ body {
     right: 110px;
     position: relative;
 }
+=======
+h1,
+p,
+a,
+h2 {
+    font-family: 'Maven Pro', 'sans-serif';
+}
+>>>>>>> FETCH_HEAD

@@ -1,9 +1,18 @@
-.logInBox{
-    height:300px;
-    width:200px;
+.logInBox {
+    height: 300px;
+    width: 200px;
     background-color: lightblue;
 }
-
-body{
-    background-image:url('../images/BG2.png');
+body {
+    background-image: url('../images/BG2.png');
+}
+.logo {
+    max-width: 90%;
+}
+h1,
+p,
+a,
+h2 {
+    font-family: 'Maven Pro', 'sans-serif';
+    text-decoration: none;
 }
