@@ -14,20 +14,44 @@
     left: 5px;
     top: 5px;
     padding-right: 20px;
-    background-color: #FFFFFF;
 }
 .icon {
-    max-height: 30%;
+    max-height: 1.45em;
+    height: 1.45em;
     position: relative;
-    top: -10px;
+    top: -1.5px;
+    left: -8px;
+    border: 2px solid #B0D2E7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0px;
+    background: #FFF;
 }
 .search {
     position: relative;
-    top: -10px;
+    top: -8px;
     border: 2px solid #B0D2E7;
-    border-radius: 5%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0px;
     font-size: 1.1em;
 }
 body {
     background-image: url(../images/BG2.png);
+    font-family: 'Maven Pro', 'sans-serif';
+    text-decoration: none;
+}
+.onright {
+    float: right;
+}
+.profilepic {
+    max-height: 100%;
+    position: relative;
+    left: -140px;
+}
+.profilename {
+    font-size: 1.2em;
+    top: -5px;
+    position: relative;
+    right: -10px;
 }
