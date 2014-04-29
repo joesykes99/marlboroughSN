@@ -13,16 +13,20 @@
     position: relative;
     left: 5px;
     top: 5px;
-    padding-right: 10px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
 }
 .icon {
-    max-height: 20%;
+    max-height: 30%;
     position: relative;
     top: -10px;
 }
 .search {
     position: relative;
     top: -10px;
+    border: 2px solid #B0D2E7;
+    border-radius: 5%;
+    font-size: 1.1em;
 }
 body {
     background-image: url(../images/BG2.png);
