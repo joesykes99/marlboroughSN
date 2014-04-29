@@ -51,7 +51,7 @@ body {
 }
 .profilename {
     font-size: 1.2em;
-    top: -5px;
     position: relative;
+    top: -5px;
     right: -10px;
 }
