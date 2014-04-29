@@ -5,7 +5,7 @@
 }
 body {
     background-image: url('../images/BG2.png');
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 .stickerOption {
     opacity: 1;
@@ -20,152 +20,126 @@ body {
 #stickerOptions2:hover {
     content: url(../images/homePageLink2b.png);
 }
-
-
-.profileMainBody{
-    max-width:850px;
-    height:1000px;
+.profileMainBody {
+    max-width: 850px;
+    height: 1000px;
     background-color: lavender;
-    border-top-right-radius:700px;
-    border-top-left-radius:700px;
-    opacity:0.7;
+    border-top-right-radius: 700px;
+    border-top-left-radius: 700px;
+    opacity: 0.7;
     top: 4000px;
 }
-
-.profileBadge{
-    height:300px;
-    width:300px;
-    border-radius:150px;
+.profileBadge {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
     background-color: lightblue;
-    float:left;
+    float: left;
     left: 110px;
     position: relative;
 }
-
-.yearBadge{
-    height:300px;
-    width:300px;
-    border-radius:150px;
+.yearBadge {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
     background-color: lightgreen;
-    float:right;
+    float: right;
     right: 110px;
     position: absolute;
     z-index: 1;
 }
-
-.profileBadgeImg{
-    border-radius:150px;
-    max-width:90%; 
+.profileBadgeImg {
+    max-width: 90%;
 }
-
-.yearBadgeImg{
-    border-radius:150px;
-    max-width:90%; 
-    opacity:0.85;
-    position:absolute;
+.yearBadgeImg {
+    max-width: 90%;
+    opacity: 0.85;
+    position: absolute;
     z-index: 2;
-    right:16px;
+    right: 16px;
 }
-
-.yearBadgeImgYear{
-    border-radius:150px;
-    max-width:90%; 
+.yearBadgeImgYear {
+    max-width: 90%;
     position: absolute;
     z-index: 3;
-    right:16px;
+    right: 16px;
 }
-
-
-p,a,h2 {
+p,
+a,
+h2 {
     font-family: 'Maven Pro', 'sans-serif';
 }
-
-h1{
+h1 {
     font-family: 'Ruluko', 'sans-serif';
     font-size: 87px;
 }
-
-.navigation{
-	height: 80px;
-	width:800px;
-	opacity:0.9;
-	margin-left: 75px;
-	background: #AFFFF8;
-	border-radius: 15px;
-	margin-top: 200px;
-	position:absolute;
+.navigation {
+    height: 80px;
+    width: 800px;
+    opacity: 0.9;
+    margin-left: 75px;
+    background: #AFFFF8;
+    border-radius: 15px;
+    margin-top: 200px;
+    position: absolute;
 }
-
-.greennavBut{
-	cursor:pointer;
-	width:195px;
-	height:37px;
-	padding:0 0 3px 0;
-	cursor:pointer;
-	background-color: #4ecdc4;
-	text-align:center;
-	border-top:5px;
-	border-radius:5px;
-	border-width:1px;
-	border-style:solid;
-	border-color:#919191;
-	font-family: 'Indie Flower', cursive;
-	font-size:28px;
-	color:#ffffff;
-	text-decoration:none;
+.greennavBut {
+    cursor: pointer;
+    width: 195px;
+    height: 37px;
+    padding: 0 0 3px 0;
+    cursor: pointer;
+    background-color: #4ecdc4;
+    text-align: center;
+    border-top: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #919191;
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
 }
-
-
-.rednavBut{
-	cursor:pointer;
-	width:195px;
-	height:37px;
-	padding:0 0 3px 0;
-	cursor:pointer;
-	background-color:#ff6b6b;
-	#display:block;
-	text-align:center;
-	border-radius:5px;
-	border-width:1px;
-	border-style:solid;
-	border-color:#919191;
-	font-family: 'Indie Flower', cursive;
-	font-size:28px;
-	color:#ffffff;
-	text-decoration:none;
+.rednavBut {
+    cursor: pointer;
+    width: 195px;
+    height: 37px;
+    padding: 0 0 3px 0;
+    cursor: pointer;
+    background-color: #ff6b6b;
+    #display: block;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #919191;
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
 }
-
-.rednavBut:hover{ 
-background-color:#FF9C9C;
-
+.rednavBut:hover {
+    background-color: #FF9C9C;
 }
-
-.greennavBut:hover{ 
-background-color: #99DFDA;
+.greennavBut:hover {
+    background-color: #99DFDA;
 }
-
-
-
-
-
-#navBar ul li { 
-	display: inline;
+#navBar ul li {
+    display: inline;
 }
-
-#navBar ul{
-	width:810px;
-	height:45px;
-	background:#AFFFF8;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+#navBar ul {
+    width: 810px;
+    height: 45px;
+    background: #AFFFF8;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
-
-a{
-    display:inline-block;
-    padding:10px;
+a {
+    display: inline-block;
+    padding: 10px;
 }
-
-#navBar{
+#navBar {
     bottom: 150px;
 }
